@@ -4,7 +4,7 @@ Version:	1.0g
 Release:	1
 License:	LaTeX Project Public License v1.3+
 Group:		Applications/Publishing
-Source0:	https://mirrors.ctan.org/macros/latex/contrib/iftex.zip
+Source0:	https://mirrors.ctan.org/macros/generic/iftex.zip
 # Source0-md5:	dc13cf5c8c0b48ab91b0c2bb6144bd28
 URL:		https://ctan.org/pkg/iftex/
 BuildRequires:	/usr/bin/latex
