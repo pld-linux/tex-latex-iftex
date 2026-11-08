@@ -1,7 +1,7 @@
 Summary:	IfTeX – Am I running under pdfTeX, XeTeX or LuaTeX?
 Name:		tex-latex-iftex
 Version:	1.0g
-Release:	1
+Release:	2
 License:	LaTeX Project Public License v1.3+
 Group:		Applications/Publishing
 Source0:	https://mirrors.ctan.org/macros/generic/iftex.zip
@@ -9,6 +9,7 @@ Source0:	https://mirrors.ctan.org/macros/generic/iftex.zip
 URL:		https://ctan.org/pkg/iftex/
 BuildRequires:	/usr/bin/latex
 BuildRequires:	rpmbuild(macros) >= 1.751
+Provides:	tex(iftex.sty)
 Requires(post,postun):	/usr/bin/texhash
 # TODO: use generic
 Requires:	texlive-latex
